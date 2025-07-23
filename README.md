@@ -51,5 +51,5 @@ You can place this file into `/tftpboot/` or your TFTP server’s root directory
 ##Support
 
 This script is intended to help automate tedious provisioning tasks for Cisco SIP phones.  
-If nat traversal is needed please set  <natEnabled>true</natEnabled>
+If nat traversal is needed please set  <natEnabled>true</natEnabled> and     <natReceivedProcessing>true</natReceivedProcessing>. Or this won't work behind nat properly.
 You may need to modify this to get it exactly how you want for your company.
